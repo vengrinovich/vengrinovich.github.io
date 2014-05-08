@@ -2,4 +2,42 @@
 	border-style: solid;
 	
 }
+#content_area {
+	border-style: dashed;
+	float: right;
+	text-align: center;
+}
+#sidebar {
+	border-style: double;
+	float: left;
+	position: fixed;
+}
+#footer {
+	border-style: solid;
+	position: relative;
+	top: 610px
 
+}
+#logo {
+	position: relative;
+	bottom: 30px;
+
+}
+#overlap {
+	position: absolute;
+	left: 59px;
+}
+#list {
+	position: relative;
+	top: 100px;
+	left: 35px;
+}
+.first_item {
+	font-family: Verdana;
+    
+}
+a:hover {background-color: white;}
+.third_item {
+	color: blue;
+	
+}
